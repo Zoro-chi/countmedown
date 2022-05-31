@@ -10,7 +10,7 @@ This app is a to-do list with a countdown feature. The app allows you to:
 * Display the time remaining for the task
 * Allow you to delete tasks
 
-## Tech Used
+### Tech Used
 This app was built using:
 
 * Node.js
@@ -18,21 +18,20 @@ This app was built using:
 * MongoDB/Mongoose
  
 
-## Optimizations
-
+### Optimizations
 Future improvements could include:
 
 * A way to delete multiple tasks quickly. 
 * Ability to reorder tasks either by urgency or completion date.
 
-## Lessons Learned
+### Lessons Learned
+... lessons still loading...
 
 
 
+## Development environment setup
 
-# Development environment setup
-
-## To initialize your development environment with git:
+### To initialize your development environment with git:
 * Visit the main repo: https://github.com/intelagense/countmedown
 * Click Fork in the top right, instructions here: https://docs.github.com/en/get-started/quickstart/fork-a-repo
 * Navigate to your copy of the repo (https://github.com/YOURUSERNAME/countmedown)
@@ -98,7 +97,7 @@ git fetch upstream
 npm install
 ```
 
-# User credentials (use your own mongodb credentials for the time being)
+### User credentials (use your own mongodb credentials for the time being)
 * Use dotenv module for credential storage on your local machine
 * .env file contains login information, and MUST BE in your .gitignore
 * THIS MUST BE SETUP BEFORE PUSHING TO GITHUB
