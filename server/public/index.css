@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.formContainer{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-flow: column nowrap;
+}
